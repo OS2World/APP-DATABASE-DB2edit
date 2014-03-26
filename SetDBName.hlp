@@ -1,0 +1,8 @@
+DB2Edit requires the name of a database, whose tables and columns are to be operated upon.
+
+You can choose 'cancel' here, but afterwards you have to select a database from the pulldown menu at the upper left of the window.
+
+After selecting a database, don't forget to click on the 'refresh'-button.
+
+
+ 

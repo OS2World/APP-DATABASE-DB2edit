@@ -1,0 +1,59 @@
+'DB2Edit/2' is a kind of 'Swiss Army Knife' for DB2-databases in OS/2.
+
+'DB2Edit/2' shows table-strutures and contents. In addition you can modify table contents (columns data).
+
+(1) Select a database:
+- Open the selection list box 'Select a database' (use the little arrow on the righthand).
+
+- Click on one of the database names in the drop-down-list.
+
+- Click on the 'Refresh'-button.
+
+(2) Select a table:
+- Click on the button 'Show Tables'.
+
+If you want the system catalogue tables to be shown: set the 'include Sys.Tables'-checkbox on, before clicking the push-button.
+
+The listbox under 'Show Tables' should be filled now.
+
+(3) Display structure (columns) of a table:
+
+- In the listbox under 'Show Tables' select a tablename.
+
+- doubleclick on the tablename.
+
+The listbox under 'Cols of Table:' should be filled now.
+
+(4) Display Table-data:
+
+- Click on the button 'Show Table Data'.
+
+Before you click the push button you can limit the amount of rows being displayed by two means:
+
+- In the entry field 'Max.Rows' type in a number of rows (advisable for tables with a large number of rows!)
+
+- alternatively use the 'WHERE'-clause (without the keyword 'where').
+
+If you like you can use the 'ORDER BY'-clause too (without the keyword 'order by').
+
+Hint:
+You must FIRST set the variables as mentioned (if any are wanted at all), there AFTER you must click on the push button.
+
+
+(5) Ändern Tabellen-Daten:
+
+Nachdem die Rows der Tabelle in der Liste 'Columns of Table' zu sehen sind, kann eine einzelne Row zwecks Änderung ausgewählt werden. Dazu ist der Maus-Cursor in das gewünschte Feld zu positionieren bei GLEICHZEITIGEM DRÜCKEN DER ALT-TASTE.
+
+Das Feld wird dann editiertbar. Nach Eingabe der gewünschten Daten muss der Maus-Cursor irgendwo ausserhalb des editierten Feldes gesetzt werden.
+
+Jetzt wird der Button 'Update Current Row' aktiv (enabled). Man kann jetzt entweder weitere Felder DERSELBEN Row editieren oder den Update vollziehen, indem man den Button 'Update Current Row' anklickt.
+
+Beim Klicken des Button 'Update Current Row' wird der auszuführende SQL-Befehl zuvor in einem Dialog-Fenster angezeigt: Dort kann noch abgebrochen werden, oder es wird mit 'OK' der Update bestätigt.
+
+Nun können weitere Rows in derselben Weise modifiziert werden.
+
+Alle Änderungen können noch durch den 'ROLLBACK'-Button wieder zurückgenommen werden. Erst wenn DB2Edit verlassen wird (Exit-Button), werden die Änderungen COMMITted.
+
+
+
+ 

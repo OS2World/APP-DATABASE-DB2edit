@@ -1,0 +1,13 @@
+VX-REXX OS/2 V2.10 Build B3
+VRX: DB2Edit.VRX
+MacroPath: VRM:E:\data\vxrexx\DB2Edit
+EXEPath: 
+RunParameters: 
+RunDirectory: 
+VRXWindow: __VREMainWindow,1,72,145,5767,9973
+VRXWindow: __VRESectionListWindow,1,24,11900,10419,3180
+VRXWindow: __VREToolsWindow,1,60,10166,4993,1669
+VRXWindow: __VREWindListWindow,1,96,7082,2770,2228
+UserFile: 1
+UserWindow: Window1,1
+UserWindow: WIN_Export,1
